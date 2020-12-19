@@ -42,7 +42,7 @@ function setSecond(){
 			detik++;
 		}
 		else{
-			detik = 0;
+			detik = 1;
 			document.getElementsByTagName('h2')[4].innerHTML = "00";
 			menit++;
 			setMinute();
@@ -58,7 +58,7 @@ function setMinute(){
 		document.getElementsByTagName('h2')[2].innerHTML = menit.toString();
 	}
 	else{
-		menit = 0;
+		menit = 1;
 		document.getElementsByTagName('h2')[2].innerHTML = "00";
 		jam++;
 		setHour();
