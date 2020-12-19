@@ -58,7 +58,7 @@ function setMinute(){
 		document.getElementsByTagName('h2')[2].innerHTML = menit.toString();
 	}
 	else{
-		menit = 1;
+		menit = 0;
 		document.getElementsByTagName('h2')[2].innerHTML = "00";
 		jam++;
 		setHour();
